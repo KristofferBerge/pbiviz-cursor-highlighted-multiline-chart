@@ -47,6 +47,8 @@ module powerbi.extensibility.visual {
 
     public cursorColor: string = "gray";
     public cursorWidth: number = 2;
+    // Number of ticks
+    public yTicks: number = 5;
   }
 
   export class dataPointSettings {

@@ -13,7 +13,7 @@
     ],
     "supportsHighlight": true,
     "objects": {
-        "chartSettings":{
+        "chartSettings": {
             "displayName": "Chart settings",
             "properties": {
                 "yMin": {
@@ -59,7 +59,7 @@
                         ]
                     }
                 },
-                "cursorColor":{
+                "cursorColor": {
                     "displayName": "Cursor color",
                     "type": {
                         "fill": {
@@ -69,8 +69,14 @@
                         }
                     }
                 },
-                "cursorWidth":{
+                "cursorWidth": {
                     "displayName": "Cursor width (px)",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "yTicks": {
+                    "displayName": "Y ticks",
                     "type": {
                         "numeric": true
                     }
